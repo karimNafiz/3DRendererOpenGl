@@ -1,0 +1,10 @@
+﻿  Main.cpp
+Main.obj : error LNK2019: unresolved external symbol __imp__glewInit@0 referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol __imp__glewGetErrorString@4 referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol __imp__glewGetString@4 referenced in function _main
+Main.obj : error LNK2019: unresolved external symbol __imp____glutInitWithExit@12 referenced in function _glutInit_ATEXIT_HACK@8
+Main.obj : error LNK2019: unresolved external symbol __imp____glutCreateWindowWithExit@8 referenced in function _glutCreateWindow_ATEXIT_HACK@4
+.\lib\freeglutd.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+.\lib\glew32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+.\lib\opengl32.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\karim\Desktop\OpenGL\OpenGL\Debug\OpenGL.exe : fatal error LNK1120: 5 unresolved externals
